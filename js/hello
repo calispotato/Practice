@@ -3,4 +3,4 @@
 'use strict'
 var c = require("skilstak-colors");
 
-process.stdout.write(c.multi("hello world"));
+process.stdout.write(c.multi("hello world") + c.reset);
